@@ -89,3 +89,12 @@ D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Cliente\PagoCliente.cshtml.g.cs
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Cliente\ReservaCliente.cshtml.g.cs
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Shared\_LayoutCliente.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Administrador\Carta.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Administrador\Horario.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Administrador\Index.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Administrador\Miperfil.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Administrador\Reservass.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\No-Cliente\Carta.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\No-Cliente\Combos.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\No-Cliente\Especialidades.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Shared\_LayoutAdministrador.cshtml.g.cs
