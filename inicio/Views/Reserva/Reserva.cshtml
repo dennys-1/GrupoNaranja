@@ -1,0 +1,63 @@
+@{
+    Layout="_LayoutAdministrador";
+}
+@model IEnumerable<inicio.Models.Reserva>
+
+<h2>Lista Contactos</h2>
+
+<p>
+    <a asp-action="Create">Create</a>
+</p>
+<table class="table table-hover">
+     <thead class="thead-dark">
+        <tr>
+                <th scope="col">
+                    #
+                </th>
+                
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.n_personas)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.Telefono)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.ocasion)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.fecha)
+                </th>
+                 
+                 <th scope="col">
+                    @Html.DisplayNameFor(model => model.hora)
+                </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">
+                    @Html.DisplayFor(modelItem => item.id)  
+                </th>
+                
+                <td>
+                    @Html.DisplayFor(modelItem => item.n_personas)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ocasion)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fecha)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.hora)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="ExportarExcel">Exporta a Excel</a>

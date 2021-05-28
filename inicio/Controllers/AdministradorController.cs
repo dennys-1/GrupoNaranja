@@ -6,22 +6,22 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-//using NARANJA.Data;
-//using NARANJA.Models;
+using inicio.Data;
+using inicio.Models;
 
-namespace NARANJA.Controllers
+namespace inicio.Controllers
 {
     public class AdministradorController : Controller
     {
         private readonly ILogger<AdministradorController> _logger;
         
-       // private readonly ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
 
-        public AdministradorController(ILogger<AdministradorController> logger)/*,
-        /*ApplicationDbContext context)*/
+        public AdministradorController(ILogger<AdministradorController> logger,
+        ApplicationDbContext context)
         {
             _logger = logger;
-            //_context=context;
+            _context=context;
         }
          public IActionResult Index()
         {
@@ -34,11 +34,11 @@ namespace NARANJA.Controllers
         }
          public IActionResult Reservas()
         { 
-           return View();
+           
 
-            /*var listreservas = _context.Reservas.ToList();
+            var listreservas = _context.Reserva.ToList();
             ViewData["message"]="";
-            return View(listreservas);*/
+            return View(listreservas);
         }
          public IActionResult Horario()
         {

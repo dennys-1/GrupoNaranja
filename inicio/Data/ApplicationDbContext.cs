@@ -12,5 +12,6 @@ namespace inicio.Data
             : base(options)
         {
         }
+         public DbSet<inicio.Models.Reserva> Reserva {get; set;}
     }
 }

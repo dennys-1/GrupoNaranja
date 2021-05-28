@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\GrupoNaranja\\inicio\\inicio.csproj": {}
+    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Conexion Base de datos\\GrupoNaranja\\inicio\\inicio.csproj": {}
   },
   "projects": {
-    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\GrupoNaranja\\inicio\\inicio.csproj": {
+    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Conexion Base de datos\\GrupoNaranja\\inicio\\inicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\GrupoNaranja\\inicio\\inicio.csproj",
+        "projectUniqueName": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Conexion Base de datos\\GrupoNaranja\\inicio\\inicio.csproj",
         "projectName": "inicio",
-        "projectPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\GrupoNaranja\\inicio\\inicio.csproj",
+        "projectPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Conexion Base de datos\\GrupoNaranja\\inicio\\inicio.csproj",
         "packagesPath": "C:\\Users\\Dennys\\.nuget\\packages\\",
-        "outputPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\GrupoNaranja\\inicio\\obj\\",
+        "outputPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Conexion Base de datos\\GrupoNaranja\\inicio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dennys\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[4.5.3.3, )"
+            },
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.4, )"
@@ -57,6 +61,20 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "target": "Package",
               "version": "[5.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "microsoft.entityframeworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "microsoft.entityframeworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
             }
           },
           "imports": [
