@@ -1,0 +1,75 @@
+
+@model IEnumerable<NARANJA.Models.Reservas>
+
+<h2>Lista Contactos</h2>
+
+<p>
+    <a asp-action="Create">Create</a>
+</p>
+<table class="table table-hover">
+     <thead class="thead-dark">
+        <tr>
+                <th scope="col">
+                    #
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.fecha)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.n_personas)
+                </th>
+                <th scope="col">
+                    @Html.DisplayNameFor(model => model.ocasion)
+                </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <th scope="row">
+                    #
+                </th>
+                <td>
+                    @Html.DisplayFor(modelItem => item.fecha)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.n_personas)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ocasion)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="ExportarExcel">Exporta a Excel</a>
+
+
+
+<!--h1 class="text-center">Reservas</h1>
+<div id="buscador">
+
+<form action="" method="post" target="_blank">
+  <p>
+    Busca por fecha: <input type="date" name="busquedacodigo" size="4" maxlength="4">
+    <input type="submit" value="Buscar">
+  </p>
+</form>
+</div>
+
+  <div id="menu">
+    <p>Fecha</p>
+    <p>Motivo</p>
+    <p>Personas</p>
+    <p>Platos(opcional)</p>
+  </div>
+   <div class="cuadro">
+     
+   </div>
+<div id="Exportar">
+    <form method="POST" action="">
+    <button class="btn btn-primary" type="submit">
+       Exportar/Descargar
+    </form>
+</div>-->

@@ -80,3 +80,12 @@ D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\ref\inicio.dll
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\inicio.pdb
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\inicio.genruntimeconfig.cache
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Cliente\BoletaCliente.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Cliente\CartaCliente.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Cliente\Combo.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Cliente\EspecialidadesCliente.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Cliente\Index.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Cliente\OfertaCliente.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Cliente\PagoCliente.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Cliente\ReservaCliente.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Shared\_LayoutCliente.cshtml.g.cs

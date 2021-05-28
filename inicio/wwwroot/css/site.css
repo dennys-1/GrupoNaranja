@@ -69,3 +69,260 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.cuadrito{
+  display: flex;
+  justify-content: center;
+  
+}
+
+/**/
+.contenedor-footer{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+}
+.content-foo{
+  text-align: center;
+}
+
+.content-foo h4{
+  color: #fff;
+  border-bottom: 3px solid #ff6347;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.content-foo p{
+  color: #ccc;
+}
+
+.social-media i {
+  font-size: 20px;
+  display: inline-block;
+  color: #ccc;
+  border: 1px solid #adb6c7;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  line-height: 36px;
+  cursor: pointer;
+  margin-top: 0px;
+  text-align: center;
+  transition: all ease-in-out .3s;
+  margin-right: 5px;
+  margin-bottom: -10px;
+}
+
+.social-media i:hover{
+  color: #fff;
+  background-color: #ff6347;
+  border-color: #ff6347;
+}
+
+
+
+#foot{
+  margin-top: 150px;
+  background: black;
+}
+#foot1{
+  color: white;
+}
+
+/***************************************************/
+header {
+  width: 100%;
+  height: 700px;
+  background: #ef3b36;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, hsla(0, 0%, 51%, 0.39), hsla(0, 95%, 15%, 0.315)), url(../img/logo.png);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(0, 0%, 45%, 0.329), hsla(0, 0%, 3%, 0.342)), url(../img/logo.png);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  position: relative;      
+}
+#cart-one{
+  color: #fff;
+  font-size: x-large;
+}
+nav{
+  text-align: right;
+  padding: 30px 50px 0 0;
+}
+nav > a{
+  color: #fff;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+}
+nav > a:hover{
+  color: tomato;
+  font-weight: 550;
+  transition: 0.2s;
+  box-shadow: 0 0 6px 0 rgb(0, 0, 0);
+}
+
+/*fdaskjdnfgdsjgd*/
+nav.dora{
+  /* height: 70px;
+   width: 90px;
+   margin-right: auto;
+   overflow: hidden;
+   display: flex;
+   justify-content: space-between;*/
+   text-align: right;
+   padding: 30px 50px 0 0;
+}
+
+
+
+
+
+
+header .textos-header{
+   display: flex;
+   height: 430px;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   text-align: center;
+}
+
+
+
+
+.wave{
+   position: absolute;
+   bottom: 0;
+   width: 100%;
+}
+
+
+/*****************************/
+.carrusel{
+  margin-top: 50px;
+}
+#lista{
+  display: flex;
+  justify-content: space-between;
+}
+#navegador{
+  background: black;
+}
+
+
+/***********************/
+
+/*************************Reservas Administrador**********************/
+.cuadro{
+  border: 2px solid black;
+  border-radius: 12px;
+  width: 100%;
+  height: 400px;
+}
+#menu{
+  display: flex;
+  justify-content: space-around;
+}
+#Exportar{
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  
+}
+#menu{
+  margin-bottom: 15px;
+}
+#buscador{
+  display: flex;
+  justify-content: space-around;
+}
+/** blog **/
+.blog {
+  padding-top: 180px;
+}
+.title {
+  text-align: center;
+   padding-bottom: 60px;
+}
+.title h2 {
+  font-size: 45px;
+   font-weight: 500;
+   line-height: 40px;
+   color: #191918;
+   padding: 20px 0px;
+}
+.title span {
+  color: #191918;
+   font-size: 17px;
+   line-height: 20px;
+   display: block;
+}
+.blog .blog_box {
+  border:#a1a1a1 solid 1px;
+   background: #fff;
+}
+.blog .blog_box .blog_img_box {
+  background: #fff;
+   box-shadow: #ddd 0px 3px 3px 0px;
+}
+.blog .blog_box .blog_img_box figure {
+  margin:0;
+   position: relative;
+}
+.blog_img_box figure img {
+  width: 100%;
+}
+.blog .blog_box .blog_img_box figure span {
+   background: #000;
+   top: 0;
+   text-align: center;
+   padding: 7px 10px;
+   color: #fff;
+   right: 0;
+   left: 0;
+   position: absolute;
+   width: 100px;
+}
+.blog .blog_box h3 {
+   color: #373535;
+   font-size: 22px;
+   line-height: 25px;
+   font-weight: 500;
+   padding: 0px 20px;
+   padding-top: 30px;
+   padding-bottom: 15px;
+}
+.blog .blog_box p {
+   color: #525050;
+   font-size: 17px;
+   line-height: 28px;
+   padding: 0px 20px;
+   padding-bottom:28px;
+}
+
+/********* quienes somos*/
+.mision{
+  background-image: url(../img/fondo4.jpg);
+  display: flex;
+  justify-content: space-around;
+}
+.misionvision{
+  margin-bottom: 95px;
+}
+#carrusel{
+  margin: 25px;
+}
+.ubicanos{
+  display: flex;
+  justify-content: space-between;
+}
+
