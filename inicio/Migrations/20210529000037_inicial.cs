@@ -4,7 +4,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace inicio.Migrations
 {
-    public partial class reserva : Migration
+    public partial class inicial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -48,6 +48,23 @@ namespace inicio.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Producto",
+                columns: table => new
+                {
+                    id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    Nombre = table.Column<string>(type: "text", nullable: true),
+                    Precio = table.Column<decimal>(type: "numeric", nullable: false),
+                    Descripcion = table.Column<string>(type: "text", nullable: true),
+                    Imagen = table.Column<string>(type: "text", nullable: true),
+                    Status = table.Column<string>(type: "text", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Producto", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "reserva",
                 columns: table => new
                 {
@@ -62,6 +79,20 @@ namespace inicio.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_reserva", x => x.id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "t_order",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    UserID = table.Column<string>(type: "text", nullable: true),
+                    Total = table.Column<decimal>(type: "numeric", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_t_order", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -170,6 +201,28 @@ namespace inicio.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Proforma",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    UserID = table.Column<string>(type: "text", nullable: true),
+                    ProductoId = table.Column<int>(type: "integer", nullable: true),
+                    Cantidad = table.Column<int>(type: "integer", nullable: false),
+                    Precio = table.Column<decimal>(type: "numeric", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Proforma", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Proforma_Producto_ProductoId",
+                        column: x => x.ProductoId,
+                        principalTable: "Producto",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
                 table: "AspNetRoleClaims",
@@ -206,6 +259,11 @@ namespace inicio.Migrations
                 table: "AspNetUsers",
                 column: "NormalizedUserName",
                 unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Proforma_ProductoId",
+                table: "Proforma",
+                column: "ProductoId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -226,13 +284,22 @@ namespace inicio.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
+                name: "Proforma");
+
+            migrationBuilder.DropTable(
                 name: "reserva");
+
+            migrationBuilder.DropTable(
+                name: "t_order");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+
+            migrationBuilder.DropTable(
+                name: "Producto");
         }
     }
 }
