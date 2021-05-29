@@ -1,6 +1,4 @@
-@{
-    Layout="_LayoutAdministrador";
-}
+
 @model IEnumerable<inicio.Models.Personal>
 
 <h2>Lista Personal</h2>
@@ -68,6 +66,16 @@
                 <td>
                     @Html.DisplayFor(modelItem => item.imagen)
                 </td>
+                <td>
+
+                <a href="/Personal/EditarPersonal/@item.id" class="btn btn-secondary">editar</a>
+                <form action="/Personal/BorrarPersonal" method="POST" class="d-inline-block">
+                <input type="hidden" name="id" value="@item.id"/>
+                    <button class="btn btn-danger"> borrar</button>
+
+                </form>
+                
+                  </td>
             </tr>
         }
     </tbody>

@@ -5721,19 +5721,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Dennys\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Login\\GrupoNaranja\\inicio\\inicio.csproj",
+      "projectUniqueName": "D:\\Universidad San Martin de Porres\\2021-1\\PROGRAMACION 1\\Practica3\\GrupoNaranja\\inicio\\inicio.csproj",
       "projectName": "inicio",
-      "projectPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Login\\GrupoNaranja\\inicio\\inicio.csproj",
-      "packagesPath": "C:\\Users\\Dennys\\.nuget\\packages\\",
-      "outputPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Login\\GrupoNaranja\\inicio\\obj\\",
+      "projectPath": "D:\\Universidad San Martin de Porres\\2021-1\\PROGRAMACION 1\\Practica3\\GrupoNaranja\\inicio\\inicio.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "D:\\Universidad San Martin de Porres\\2021-1\\PROGRAMACION 1\\Practica3\\GrupoNaranja\\inicio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Dennys\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5814,7 +5814,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
