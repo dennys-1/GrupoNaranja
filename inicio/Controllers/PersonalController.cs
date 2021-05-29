@@ -48,6 +48,58 @@ namespace inicio.Controllers
             return View();
         }
 
+        /***************BORRAR **********/
+        public IActionResult BorrarPersonal(int id){
+            /*_context.Regiones.First(r =>r.Id==id);*/ /* primera forma de borrar*/
+            var personales=_context.Personal.Find(id);// segunda forma 
+            _context.Remove(personales);
+            _context.SaveChanges();
+            return RedirectToAction("Personal");
+        }
+
+        /***************EDITAR **********/
+
+         public IActionResult EditarPersonal(int id){
+             var personales=_context.Personal.Find(id);
+
+            return View(personales);
+
+        }
+        [HttpPost]
+        public IActionResult EditarPersonal(Personal r){
+            if(ModelState.IsValid)
+            {
+                var personales=_context.Personal.Find(r.id);
+                personales.Nombres=r.Nombres;
+                personales.Apellidos=r.Apellidos;
+                personales.EMAIL=r.EMAIL;
+                personales.DNI=r.DNI;
+                personales.Celular=r.Celular;
+                personales.Cargo=r.Cargo;
+                personales.imagen=r.imagen;
+               
+                _context.SaveChanges();
+                
+            }
+             ViewData["Message"] = "El personal editado";
+            return View(r);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         public IActionResult ExportarExcel()
 {
     string excelContentType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";

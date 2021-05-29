@@ -424,3 +424,4 @@ D:\Universidad San Martin de Porres\2021-1\PROGRAMACION 1\GrupoNaranja\inicio\ob
 D:\Universidad San Martin de Porres\2021-1\PROGRAMACION 1\GrupoNaranja\inicio\obj\Debug\net5.0\inicio.genruntimeconfig.cache
 D:\Universidad San Martin de Porres\2021-1\PROGRAMACION 1\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Personal\NuevoPersonal.cshtml.g.cs
 D:\Universidad San Martin de Porres\2021-1\PROGRAMACION 1\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Personal\Personal.cshtml.g.cs
+D:\Universidad San Martin de Porres\2021-1\PROGRAMACION 1\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Personal\EditarPersonal.cshtml.g.cs
