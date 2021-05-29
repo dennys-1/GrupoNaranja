@@ -44,7 +44,7 @@ namespace inicio.Controllers
         {
             _context.Add(objReserva);
             _context.SaveChanges();
-            ViewData["Message"] = "El contacto ya esta registrado";
+            ViewData["Message"] = "La reserva ya esta registrado";
             return View();
         }
 
