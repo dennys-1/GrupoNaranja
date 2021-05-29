@@ -5726,11 +5726,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Conexion Base de datos\\GrupoNaranja\\inicio\\inicio.csproj",
+      "projectUniqueName": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\MODELO CATALOGO\\GrupoNaranja\\inicio\\inicio.csproj",
       "projectName": "inicio",
-      "projectPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Conexion Base de datos\\GrupoNaranja\\inicio\\inicio.csproj",
+      "projectPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\MODELO CATALOGO\\GrupoNaranja\\inicio\\inicio.csproj",
       "packagesPath": "C:\\Users\\Dennys\\.nuget\\packages\\",
-      "outputPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Conexion Base de datos\\GrupoNaranja\\inicio\\obj\\",
+      "outputPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\MODELO CATALOGO\\GrupoNaranja\\inicio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dennys\\AppData\\Roaming\\NuGet\\NuGet.Config"
