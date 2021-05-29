@@ -16,5 +16,7 @@ namespace inicio.Data
          public DbSet<inicio.Models.Producto> DataProducto {get; set;}
          public DbSet<inicio.Models.Proforma> DataCarrito { get; set; }
         public DbSet<inicio.Models.Pedido> DataPedidos { get; set; }
+
+        public DbSet<inicio.Models.Personal> Personal {get; set;}
     }
 }
