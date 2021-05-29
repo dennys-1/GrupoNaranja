@@ -37,7 +37,7 @@ namespace inicio.Controllers
         }
 
         // GET: Proforma/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Detalles(int? id)
         {
             if (id == null)
             {
