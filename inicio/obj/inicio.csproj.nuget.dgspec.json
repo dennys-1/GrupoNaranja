@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\diseñocatalogoo\\GrupoNaranja\\inicio\\inicio.csproj": {}
+    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\CRUDRESERVA\\GrupoNaranja\\inicio\\inicio.csproj": {}
   },
   "projects": {
-    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\diseñocatalogoo\\GrupoNaranja\\inicio\\inicio.csproj": {
+    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\CRUDRESERVA\\GrupoNaranja\\inicio\\inicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\diseñocatalogoo\\GrupoNaranja\\inicio\\inicio.csproj",
+        "projectUniqueName": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\CRUDRESERVA\\GrupoNaranja\\inicio\\inicio.csproj",
         "projectName": "inicio",
-        "projectPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\diseñocatalogoo\\GrupoNaranja\\inicio\\inicio.csproj",
+        "projectPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\CRUDRESERVA\\GrupoNaranja\\inicio\\inicio.csproj",
         "packagesPath": "C:\\Users\\Dennys\\.nuget\\packages\\",
-        "outputPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\diseñocatalogoo\\GrupoNaranja\\inicio\\obj\\",
+        "outputPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\CRUDRESERVA\\GrupoNaranja\\inicio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dennys\\AppData\\Roaming\\NuGet\\NuGet.Config"

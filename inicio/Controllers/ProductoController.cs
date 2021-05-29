@@ -142,7 +142,7 @@ namespace inicio.Controllers
             var producto = await _context.DataProducto.FindAsync(id);
             _context.DataProducto.Remove(producto);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
+            return RedirectToAction(nameof(Platos));
         }
 
         private bool ProductoExists(int id)
