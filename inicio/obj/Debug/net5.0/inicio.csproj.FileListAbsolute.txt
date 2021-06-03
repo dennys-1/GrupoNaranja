@@ -1310,10 +1310,7 @@ D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNa
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Personal\EditarPersonal.cshtml.g.cs
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Personal\NuevoPersonal.cshtml.g.cs
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Personal\Personal.cshtml.g.cs
-D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Producto\Creacion.cshtml.g.cs
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Producto\Delete.cshtml.g.cs
-D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Producto\Edit.cshtml.g.cs
-D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Producto\Platos.cshtml.g.cs
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Proforma\Detalles.cshtml.g.cs
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Proforma\Index.cshtml.g.cs
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Reserva\CrearReserva.cshtml.g.cs
@@ -1335,3 +1332,7 @@ D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNa
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\inicio.genruntimeconfig.cache
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Contacto\Create.cshtml.g.cs
 D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Contacto\Index.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Producto\Create.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Producto\Details.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Producto\Edit.cshtml.g.cs
+D:\USMP-2021-1\pro lab\GRUPO-NARANJA-AHORA SI\Arreglos Home\GrupoNaranja\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Producto\Index.cshtml.g.cs
