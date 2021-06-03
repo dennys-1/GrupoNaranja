@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using inicio.Data;
 using inicio.Models;
 
-namespace inicio.Controllers
+namespace plantitas.Controllers
 {
     public class ProductoController : Controller
     {
@@ -20,7 +20,7 @@ namespace inicio.Controllers
         }
 
         // GET: Producto
-        public async Task<IActionResult> Platos()
+        public async Task<IActionResult> Index()
         {
             return View(await _context.DataProducto.ToListAsync());
         }
@@ -44,7 +44,7 @@ namespace inicio.Controllers
         }
 
         // GET: Producto/Create
-        public IActionResult Creacion()
+        public IActionResult Create()
         {
             return View();
         }
@@ -54,13 +54,13 @@ namespace inicio.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Creacion([Bind("Id,Nombre,Precio,Descripcion,Imagen,Status")] Producto producto)
+        public async Task<IActionResult> Create([Bind("Id,Nombre,Descripcion,Precio,Imagen,Status")] Producto producto)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(producto);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Platos));
+                return RedirectToAction(nameof(Index));
             }
             return View(producto);
         }
@@ -86,7 +86,7 @@ namespace inicio.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,Price,ImagenName,Status")] Producto producto)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nombre,Descripcion,Precio,Imagen,Status")] Producto producto)
         {
             if (id != producto.Id)
             {
@@ -142,7 +142,7 @@ namespace inicio.Controllers
             var producto = await _context.DataProducto.FindAsync(id);
             _context.DataProducto.Remove(producto);
             await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Platos));
+            return RedirectToAction(nameof(Index));
         }
 
         private bool ProductoExists(int id)
