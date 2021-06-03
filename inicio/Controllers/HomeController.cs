@@ -22,7 +22,8 @@ namespace inicio.Controllers
         public IActionResult Index()
         {
             return View();
-        } public IActionResult Nosotros()
+        }
+         public IActionResult Nosotros()
         {
             return View();
         }
