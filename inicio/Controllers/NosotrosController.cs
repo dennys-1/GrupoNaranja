@@ -30,6 +30,9 @@ namespace inicio.Controllers
         {
             return View();
         }
-        
+        public IActionResult Privacidad()
+        {
+            return View();
+        }
     }
 }

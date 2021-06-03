@@ -1219,3 +1219,4 @@ D:\Universidad San Martin de Porres\2021-1\PROGRAMACION 1\TIAVENENO\GrupoNaranja
 D:\Universidad San Martin de Porres\2021-1\PROGRAMACION 1\TIAVENENO\GrupoNaranja\inicio\obj\Debug\net5.0\inicio.csproj.CopyComplete
 D:\Universidad San Martin de Porres\2021-1\PROGRAMACION 1\TIAVENENO\GrupoNaranja\inicio\obj\Debug\net5.0\inicio.genruntimeconfig.cache
 D:\Universidad San Martin de Porres\2021-1\PROGRAMACION 1\TIAVENENO\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Nosotros\Nosotros.cshtml.g.cs
+D:\Universidad San Martin de Porres\2021-1\PROGRAMACION 1\TIAVENENO\GrupoNaranja\inicio\obj\Debug\net5.0\Razor\Views\Nosotros\Privacidad.cshtml.g.cs
