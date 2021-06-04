@@ -4,25 +4,25 @@
 @model inicio.Models.Reserva
 <div id="cuadrito">
 <div  id="cuadro">
-    <h1 class="text-center text-black">Realizar Reserva</h1>
+    <h1 class="text-center text-white">Realizar Reserva</h1>
 <form asp-controller="Reserva" asp-action="CrearReserva">
-    <label asp-for="n_personas" class="control-label text-black"></label>
-     <input asp-for="n_personas" type="number" min="1" max="25"  class="form-control text-black" required>
+    <label asp-for="n_personas" class="control-label text-white"></label>
+     <input asp-for="n_personas" type="number" min="1" max="25"  class="form-control text-black" required><br>
     
 
 
-      <label asp-for="Telefono" class="control-label text-black"></label>
-     <input asp-for="Telefono" type="text" maxlength="9" class="form-control text-black" required>
+      <label asp-for="Telefono" class="control-label text-white"></label>
+     <input asp-for="Telefono" type="text" maxlength="9" class="form-control text-black" required><br>
 
     
-     <label asp-for="ocasion" class="control-label text-black"></label>
-     <input asp-for="ocasion" type="text" class="form-control text-black"  />
+     <label asp-for="ocasion" class="control-label text-white"></label>
+     <input asp-for="ocasion" type="text" class="form-control text-black"  /><br>
 
-     <label asp-for="fecha" class="control-label text-black"></label>
-     <input asp-for="fecha"  class="form-control text-black"  />
+     <label asp-for="fecha" class="control-label text-white"></label>
+     <input asp-for="fecha"  class="form-control text-black"  /><br>
      
-     <label asp-for="hora" class="control-label "></label>
-     <input asp-for="hora" type="time" class="form-control text-black" />
+     <label asp-for="hora" class="control-label text-BLACK "></label>
+     <input asp-for="hora" type="time" class="form-control text-black" /> <br>
 
     <div class="form-group">
         <button type="submit" class="btn btn-primary">Registrar</button> 
