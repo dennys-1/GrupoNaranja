@@ -19,5 +19,6 @@ namespace inicio.Models
         public int Cantidad{get; set;}
 
         public Decimal Precio { get; set; }
+        public String Imagen { get; set; }
     }
 }
