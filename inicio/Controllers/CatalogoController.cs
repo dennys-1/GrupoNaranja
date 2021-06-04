@@ -38,6 +38,17 @@ namespace inicio.Controllers
             return View(await productos.ToListAsync());
         }
 
+         [HttpGet]
+        public async Task<IActionResult> Index(String Empsearch){
+            ViewData["Getemployeedetails"]=Empsearch;
+            var empquery=from x in _context.DataProducto select x;
+            if(!string.IsNullOrEmpty(Empsearch)){
+                empquery=empquery.Where(x =>x.Nombre.Contains(Empsearch))  ;
+            }
+            return View(await empquery.AsNoTracking().ToListAsync());
+
+        }
+
         public async Task<IActionResult> Add(int? id)
         {
             var userID = _userManager.GetUserName(User);
