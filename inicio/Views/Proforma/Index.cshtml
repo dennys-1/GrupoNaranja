@@ -4,12 +4,19 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Carrito</h1>
+
+
+<div  style="background: #FADBD8">
+<h1>Realizar Compra</h1>
+</div>
 
 
 <table class="table">
     <thead>
         <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Producto.Imagen)
+            </th>
             <th>
                 @Html.DisplayNameFor(model => model.Producto.Nombre)
             </th>
@@ -25,7 +32,12 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            
             <td>
+                <img class="img-responsive" width="96" height="150"
+                       src="~/img/@item.Producto.Imagen" alt="@item.Imagen"  />
+            </td>
+           <td>
                 @Html.DisplayFor(modelItem => item.Producto.Nombre)
             </td>
             <td>
@@ -34,12 +46,90 @@
             <td>
                 @Html.DisplayFor(modelItem => item.Precio)
             </td>
+           
             <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Detalles" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                <a asp-action="Delete" class="btn btn-danger"   style="background: #F7819F" asp-route-id="@item.Id">Borrar</a>
+            
+                <a asp-action="Edit" class="btn btn-danger"   style="background: #F7819F" asp-route-id="@item.Id">Editar</a>
             </td>
         </tr>
 }
-    </tbody>
+
+
+<main>
+        <div class="container">
+            <div class="row mt-3">
+                <div class="col">
+                    <form id="procesar-pago" action="#">
+                        <div class="form-group row">
+                            <label for="cliente" class="col-12 col-md-2 col-form-label h2">Cliente :
+                            </label>
+                            <div class="col-12 col-md-10">
+                                <input type="text" class="form-control" id="cliente"
+                                    placeholder="Ingresa nombre cliente" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group row">
+                            <label for="email" class="col-12 col-md-2 col-form-label h2">Correo :</label>
+                            <div class="col-12 col-md-10">
+                                <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo" required>
+                            </div>
+                            
+                        </div>
+
+                        <div id="carrito" class="table-responsive">
+                            <table class="table" id="lista-compra">
+                                <thead>
+                                    
+                                </thead>
+
+                                <tr>
+                                    <th colspan="4" scope="col" class="text-center">SUB TOTAL :</th>
+                                    <th scope="col">
+                                        <p id="subtotal"></p>
+                                    </th>
+                                    <!-- <th scope="col"></th> -->
+                                </tr>
+                                <tr>
+                                    <th colspan="4" scope="col" class="text-center">IGV :</th>
+                                    <th scope="col">
+                                        <p id="igv"></p>
+                                    </th>
+                                    <!-- <th scope="col"></th> -->
+                                </tr>
+                                <tr>
+                                    <th colspan="4" scope="col" class="text-center">TOTAL :</th>
+                                    <th scope="col">
+                                        <p id="total"></p>
+                                    </th>
+                                    <!-- <th scope="col"></th> -->
+                                </tr>
+
+                            </table>
+                        </div>
+
+                       
+
+
+                        <div class="row justify-content-around" style=" margin-left:-5%;" >
+                            <div class="col-xs-12 col-md-4" >
+                                <a href="~/Catalogo" class="btn btn-outline-danger" style="width:300px;">Seguir comprando</a>
+                            </div>
+                            <div class="col-xs-12 col-md-4">
+                                <a href="" class="btn btn-outline-danger" style="width:300px;" id="procesar-compra">Realizar compra</a>
+                            </div>
+                        </div>
+                        
+                    </form>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </main>
+        </tbody>
 </table>
