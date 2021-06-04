@@ -3,7 +3,14 @@
     ViewData["Title"]="Catalogo";
 }
 
+<form  asp-action="Index" method="get">
+    <p>
+         <input type="search" placeholder="Buscar Plato"  value=" @ViewData["Getemployeedetails"]" name="Empsearch"/>
+        <input type="submit" value="Buscar" class="btn btn-primary" />
 
+        <a asp-action="Index">atras</a>
+    </p>
+</form>
 <h1>@ViewData["Title"]</h1>
   <div class="container">
     <h1>@ViewData["Message"]</h1>
