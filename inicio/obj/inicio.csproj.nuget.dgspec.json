@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\proformadiseño\\GrupoNaranja\\inicio\\inicio.csproj": {}
+    "C:\\Users\\User\\Desktop\\GrupoNaranja-1\\inicio\\inicio.csproj": {}
   },
   "projects": {
-    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\proformadiseño\\GrupoNaranja\\inicio\\inicio.csproj": {
+    "C:\\Users\\User\\Desktop\\GrupoNaranja-1\\inicio\\inicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\proformadiseño\\GrupoNaranja\\inicio\\inicio.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\GrupoNaranja-1\\inicio\\inicio.csproj",
         "projectName": "inicio",
-        "projectPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\proformadiseño\\GrupoNaranja\\inicio\\inicio.csproj",
-        "packagesPath": "C:\\Users\\Dennys\\.nuget\\packages\\",
-        "outputPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\proformadiseño\\GrupoNaranja\\inicio\\obj\\",
+        "projectPath": "C:\\Users\\User\\Desktop\\GrupoNaranja-1\\inicio\\inicio.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\GrupoNaranja-1\\inicio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dennys\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -95,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
