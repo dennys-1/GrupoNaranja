@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lipef87f61c8yw+G2leDuqG7bUX7PSVcV0DhjwAzQOPQdQUKetdLEBzSQlrJUxMrjYTMKQoRrgnZXmtGKmZxrw==",
+  "dgSpecHash": "6dnpOMz41D2xyUjWwA7ALUwFox8EN3VPJLj4QPs/34Akx/lLu4ggNLolL+6OOsnW6Y9g6VXJIU8jOVMalI2CXA==",
   "success": true,
-  "projectFilePath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Arreglos Home\\GrupoNaranja\\GrupoNaranja\\inicio\\inicio.csproj",
+  "projectFilePath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\footer\\GrupoNaranja\\inicio\\inicio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dennys\\.nuget\\packages\\epplus\\4.5.3.3\\epplus.4.5.3.3.nupkg.sha512",
     "C:\\Users\\Dennys\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
