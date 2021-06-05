@@ -1,10 +1,10 @@
 
 @model IEnumerable<inicio.Models.Personal>
 
-<h2>Lista Personal</h2>
+<h2 style="color: white; margin-top:5%;margin-bottom:5%;">Lista Personal</h2>
 
 <p>
-    <a asp-action="Create">Create</a>
+    <a asp-action="Create" class="btn btn-primary">Añadir nuevo Personal</a>
 </p>
 <table class="table table-hover">
      <thead class="thead-dark">
@@ -80,4 +80,4 @@
         }
     </tbody>
 </table>
-<a asp-action="ExportarExcel">Exporta a Excel</a>
+<a asp-action="ExportarExcel" class="btn btn-primary">Exporta a Excel</a>

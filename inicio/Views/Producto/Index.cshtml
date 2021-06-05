@@ -1,17 +1,16 @@
 @model IEnumerable<inicio.Models.Producto>
 
-@{
-    ViewData["Title"] = "Index";
-}
 
-<h1>Index</h1>
+
+<h2 style="color: white; margin-top:5%;margin-bottom:5%;">Lista Productos</h2>
+
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create" class="btn btn-primary">Añadir nuevo Producto</a>
 </p>
 <table class="table">
     <thead>
-        <tr>
+        <tr style="color: white;">
             <th>
                 @Html.DisplayNameFor(model => model.Nombre)
             </th>
@@ -29,7 +28,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+        <tr style="color: white;" >
             <td>
                 @Html.DisplayFor(modelItem => item.Nombre)
             </td>

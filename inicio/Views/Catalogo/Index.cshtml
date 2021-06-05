@@ -1,7 +1,8 @@
 @model IEnumerable<inicio.Models.Producto>
-@{
-    ViewData["Title"]="Catalogo";
-}
+
+<div  style="margin-top: 5%; margin-bottom:5%;" >
+<h1 style="color: white;">Carta del dia</h1>
+</div>
 <form  asp-action="Index" method="get">
     <p>
          <input type="search" placeholder="Buscar Plato"  value=" @ViewData["Getemployeedetails"]" name="Empsearch"/>

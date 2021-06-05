@@ -1,15 +1,11 @@
 @model IEnumerable<inicio.Models.Contacto>
 
-@{
-    ViewData["Title"] = "Contacto";
-}
-
-<h1>Contacto</h1>
+<h1 style="color: white; margin-top:5%;margin-bottom:5%;">Contacto</h1>
 
 
 <table class="table">
     <thead>
-        <tr>
+        <tr style="color: white;">
             <th>
                 @Html.DisplayNameFor(model => model.Nombre)
             </th>
@@ -27,7 +23,7 @@
     </thead>
     <tbody>
 @foreach (var item in Model) {
-        <tr>
+        <tr style="color: white;">
             <td>
                 @Html.DisplayFor(modelItem => item.Nombre)
             </td>
@@ -41,12 +37,9 @@
                 @Html.DisplayFor(modelItem => item.Detalles)
             </td>
              <td>
-
-                
                 <form action="/Contacto/BorrarContacto" method="POST" class="d-inline-block">
                 <input type="hidden" name="id" value="@item.Id"/>
-                    <button class="btn btn-danger"> borrar</button>
-
+                <button class="btn btn-primary"> borrar</button>
                 </form>
                 </td>
         </tr>

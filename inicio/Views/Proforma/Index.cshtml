@@ -3,24 +3,21 @@
 @{
     ViewData["Title"] = "Index";
 }
-
-
-
-<div  style="background: #FADBD8">
-<h1>Realizar Compra</h1>
+<div  style="margin-top: 5%; margin-bottom:5%;" >
+<h1 style="color: white;">Realizar Compra</h1>
 </div>
 
 
 <table class="table">
     <thead>
-        <tr>
-            <th>
+        <tr style="color: white;">
+            <th >
                 @Html.DisplayNameFor(model => model.Producto.Imagen)
             </th>
-            <th>
+            <th >
                 @Html.DisplayNameFor(model => model.Producto.Nombre)
             </th>
-            <th>
+            <th >
                 @Html.DisplayNameFor(model => model.Cantidad)
             </th>
             <th>
@@ -37,13 +34,13 @@
                 <img class="img-responsive" width="96" height="150"
                        src="~/img/@item.Producto.Imagen" alt="@item.Imagen"  />
             </td>
-           <td>
+           <td style="color: white;">
                 @Html.DisplayFor(modelItem => item.Producto.Nombre)
             </td>
-            <td>
+            <td style="color: white;">
                 @Html.DisplayFor(modelItem => item.Cantidad)
             </td>
-            <td>
+            <td style="color: white;" >
                 @Html.DisplayFor(modelItem => item.Precio)
             </td>
            
@@ -54,15 +51,13 @@
             </td>
         </tr>
 }
-
-
 <main>
         <div class="container">
             <div class="row mt-3">
                 <div class="col">
                     <form id="procesar-pago" action="#">
                         <div class="form-group row">
-                            <label for="cliente" class="col-12 col-md-2 col-form-label h2">Cliente :
+                            <label for="cliente" class="col-12 col-md-2 col-form-label h2"style="color: white;">Cliente :
                             </label>
                             <div class="col-12 col-md-10">
                                 <input type="text" class="form-control" id="cliente"
@@ -71,7 +66,7 @@
                         </div>
                         
                         <div class="form-group row">
-                            <label for="email" class="col-12 col-md-2 col-form-label h2">Correo :</label>
+                            <label for="email" class="col-12 col-md-2 col-form-label h2"style="color: white;">Correo :</label>
                             <div class="col-12 col-md-10">
                                 <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo" required>
                             </div>
@@ -85,21 +80,21 @@
                                 </thead>
 
                                 <tr>
-                                    <th colspan="4" scope="col" class="text-center">SUB TOTAL :</th>
+                                    <th colspan="4" scope="col" class="text-center" style="color: white;">SUB TOTAL :</th>
                                     <th scope="col">
                                         <p id="subtotal"></p>
                                     </th>
                                     <!-- <th scope="col"></th> -->
                                 </tr>
                                 <tr>
-                                    <th colspan="4" scope="col" class="text-center">IGV :</th>
+                                    <th colspan="4" scope="col" class="text-center" style="color: white;">IGV :</th>
                                     <th scope="col">
                                         <p id="igv"></p>
                                     </th>
                                     <!-- <th scope="col"></th> -->
                                 </tr>
                                 <tr>
-                                    <th colspan="4" scope="col" class="text-center">TOTAL :</th>
+                                    <th colspan="4" scope="col" class="text-center" style="color: white;">TOTAL :</th>
                                     <th scope="col">
                                         <p id="total"></p>
                                     </th>
@@ -114,10 +109,10 @@
 
                         <div class="row justify-content-around" style=" margin-left:-5%;" >
                             <div class="col-xs-12 col-md-4" >
-                                <a href="~/Catalogo" class="btn btn-outline-danger" style="width:300px;">Seguir comprando</a>
+                                <a href="~/Catalogo" class="btn btn-outline-primary" style="width:300px;">Seguir comprando</a>
                             </div>
                             <div class="col-xs-12 col-md-4">
-                                <a href="" class="btn btn-outline-danger" style="width:300px;" id="procesar-compra">Realizar compra</a>
+                                <a href="" class="btn btn-outline-primary" style="width:300px;" id="procesar-compra">Realizar compra</a>
                             </div>
                         </div>
                         
