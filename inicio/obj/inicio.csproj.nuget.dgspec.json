@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Login\\GrupoNaranja-1\\inicio\\inicio.csproj": {}
+    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Apis\\grupo-naranja\\grupo-naranja\\inicio\\inicio.csproj": {}
   },
   "projects": {
-    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Login\\GrupoNaranja-1\\inicio\\inicio.csproj": {
+    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Apis\\grupo-naranja\\grupo-naranja\\inicio\\inicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Login\\GrupoNaranja-1\\inicio\\inicio.csproj",
+        "projectUniqueName": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Apis\\grupo-naranja\\grupo-naranja\\inicio\\inicio.csproj",
         "projectName": "inicio",
-        "projectPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Login\\GrupoNaranja-1\\inicio\\inicio.csproj",
+        "projectPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Apis\\grupo-naranja\\grupo-naranja\\inicio\\inicio.csproj",
         "packagesPath": "C:\\Users\\Dennys\\.nuget\\packages\\",
-        "outputPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Login\\GrupoNaranja-1\\inicio\\obj\\",
+        "outputPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Apis\\grupo-naranja\\grupo-naranja\\inicio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dennys\\AppData\\Roaming\\NuGet\\NuGet.Config"
