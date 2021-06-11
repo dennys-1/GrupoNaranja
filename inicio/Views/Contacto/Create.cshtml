@@ -1,16 +1,16 @@
 @model inicio.Models.Contacto
 
 <form asp-controller="Contacto" asp-action="Create">
-     <label asp-for="Nombre" class="control-label"></label>
+     <label asp-for="Nombre" style="color: white;"class="control-label"></label>
      <input asp-for="Nombre" class="form-control" />
 
-     <label asp-for="Email" class="control-label"></label>
+     <label asp-for="Email"style="color: white;" class="control-label"></label>
      <input asp-for="Email" class="form-control" />
 
-     <label asp-for="Celular" class="control-label"></label>
-     <input asp-for="Celular" class="form-control" />
+     <label asp-for="Celular" style="color: white;"class="control-label"></label>
+     <input asp-for="Celular" class="form-control" maxlength="9" />
 
-     <label asp-for="Detalles" class="control-label"></label>
+     <label asp-for="Detalles"style="color: white;" class="control-label"></label>
      <input asp-for="Detalles" class="form-control" />
 
     <div class="form-group">
