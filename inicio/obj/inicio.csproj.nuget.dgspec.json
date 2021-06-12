@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Apis\\grupo-naranja\\grupo-naranja\\inicio\\inicio.csproj": {}
+    "D:\\EXPOSABADO\\grupo-naranja\\inicio\\inicio.csproj": {}
   },
   "projects": {
-    "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Apis\\grupo-naranja\\grupo-naranja\\inicio\\inicio.csproj": {
+    "D:\\EXPOSABADO\\grupo-naranja\\inicio\\inicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Apis\\grupo-naranja\\grupo-naranja\\inicio\\inicio.csproj",
+        "projectUniqueName": "D:\\EXPOSABADO\\grupo-naranja\\inicio\\inicio.csproj",
         "projectName": "inicio",
-        "projectPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Apis\\grupo-naranja\\grupo-naranja\\inicio\\inicio.csproj",
-        "packagesPath": "C:\\Users\\Dennys\\.nuget\\packages\\",
-        "outputPath": "D:\\USMP-2021-1\\pro lab\\GRUPO-NARANJA-AHORA SI\\Apis\\grupo-naranja\\grupo-naranja\\inicio\\obj\\",
+        "projectPath": "D:\\EXPOSABADO\\grupo-naranja\\inicio\\inicio.csproj",
+        "packagesPath": "C:\\Users\\GIANCARLO\\.nuget\\packages\\",
+        "outputPath": "D:\\EXPOSABADO\\grupo-naranja\\inicio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dennys\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\GIANCARLO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
